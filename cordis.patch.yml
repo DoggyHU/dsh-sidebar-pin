@@ -1,0 +1,7 @@
+# Mount this plugin's host half into a dsh profile.
+#
+# The client half is discovered from this package's `dsh.client` declaration and
+# renders the pinned section above the sidebar's workspace region.
+- insert:
+    - id: sidebar-pin
+      name: 'dsh-sidebar-pin'
